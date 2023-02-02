@@ -7,9 +7,6 @@ class UsersList extends Component {
     super();
     this.renderUser = this.renderUser.bind(this);
   }
-  componentDidMount() {
-    this.props.fetchUsers();
-  }
 
   renderUser() {
     const { users } = this.props;
